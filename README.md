@@ -10,21 +10,8 @@ Databases: ChromaDB, SQLite3
 The application is using Retrieval-Augmented Generation (RAG) model. This approach combines the power of a large language model (LLM) like GPT with a dedicated knowledge base of Korean food recipes.
 
 Here's a visual representation of the architecture:
+<img width="2036" height="824" alt="Untitled-2025-08-16-1820" src="https://github.com/user-attachments/assets/d71c26ee-397f-4931-818b-8284b4979423" />
 
-+-----------------+      +-----------------+      +----------------------+
-|                 |      |                 |      |                      |
-|   Frontend      |----->|   Backend       |----->|   OpenAI API         |
-|   (Web App)     |      |   (Server)      |      |   (GPT-4, etc.)      |
-|                 |      |                 |      |                      |
-+-----------------+      +-------+---------+      +----------------------+
-                                 |
-                                 |
-                       +---------v---------+      +----------------------+
-                       |                   |      |                      |
-                       |   Vector Database |<-----|   Recipe Data        |
-                       |   (Knowledge Base)|      |   (Documents, PDFs)  |
-                       |                   |      |                      |
-                       +-------------------+      +----------------------\
 ## Key Components:
 - Frontend (Client): This is the user interface where users interact with the chatbot. It can be a web application, a mobile app, or integrated into a messaging platform. It's responsible for sending user messages to the backend and displaying the chatbot's responses.
 
