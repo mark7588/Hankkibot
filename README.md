@@ -1,10 +1,10 @@
 # Hankkibot
 Chat bot specialized in Korean food recipes based on OpenAI API 
 # Technology Stacks 
-Programming Language: Python, JavaScript/TypeScript 
-Framework/Libraries: LangChain, OpenAI, React, Node.js, Express, Flask 
-Desing/Styling: Tailwind CSS, Material-UI 
-Databases: ChromaDB, SQLite3 
+- Programming Language: Python, JavaScript/TypeScript 
+- Framework/Libraries: LangChain, OpenAI, React, Node.js, Express, Flask 
+- Desing/Styling: Tailwind CSS, Material-UI 
+- Databases: ChromaDB, SQLite3 
 
 ## High-Level Architecture 
 The application is using Retrieval-Augmented Generation (RAG) model. This approach combines the power of a large language model (LLM) like GPT with a dedicated knowledge base of Korean food recipes.
