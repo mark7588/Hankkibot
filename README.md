@@ -7,7 +7,7 @@ Chat bot specialized in Korean food recipes based on OpenAI API
 - Databases: ChromaDB, SQLite3 
 
 ## High-Level Architecture 
-The application is using Retrieval-Augmented Generation (RAG) model. This approach combines the power of a large language model (LLM) like GPT with a dedicated knowledge base of Korean food recipes.
+The application is using **Retrieval-Augmented Generation (RAG)** model. This approach combines the power of a large language model (LLM) like GPT with a dedicated knowledge base of Korean food recipes.
 
 Here's a visual representation of the architecture:
 <img width="2036" height="824" alt="Untitled-2025-08-16-1820" src="https://github.com/user-attachments/assets/d71c26ee-397f-4931-818b-8284b4979423" />
